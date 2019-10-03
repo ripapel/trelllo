@@ -20,7 +20,7 @@ class BoardHeader extends Component {
 
     handleKeyPress = (event) => {
         if (event.key === 'Enter')
-            this.toggleChangeName()
+            this.toggleChangeName();
     }
 
   
