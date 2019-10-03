@@ -1,0 +1,36 @@
+
+#board-members-group {
+    display: inline-block;
+}
+
+.board-name {
+    font-size: 19px;
+    font-weight: 800;
+}
+
+input[class=board-name] {
+    border: 0;
+    border-radius: 3px;
+    max-width: 100px;
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+}
+
+.board-header-group-divider {
+    border-left: 1px solid hsla(0, 0%, 100%, .24);
+    margin: 8px 8px 12px 4px;
+}
+
+.board-member {
+    height: 28px;
+    width: 28px;
+    line-height: 28px;
+    background-color: #dfe1e6;
+    border-radius: 50%;
+    color: #172b4d;
+    font-size: 12px;
+    font-weight: 700;
+    position: relative;
+    margin-right: -5px;
+}

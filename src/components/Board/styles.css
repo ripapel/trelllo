@@ -1,0 +1,6 @@
+#board {
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0 10px 8px 0;
+    white-space: nowrap;
+}

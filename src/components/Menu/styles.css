@@ -1,0 +1,84 @@
+
+#board-main-menu {
+    right: 0;
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    background-color: #f4f5f7;
+    width: 315px;
+}
+
+#board-main-menu-header {
+    margin: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.board-menu-isShowing{
+    width: calc(100% - 320px);
+}
+
+#board-main-menu-header-title {
+    margin: 0;
+    flex: 1 1;
+    text-align: center;
+    line-height: 20px;
+    font-size: 16px;
+    color: #172b4d;
+    font-weight: 600;
+}
+
+#board-main-menu-navigation {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.board-main-menu-navigation-item {
+    padding: 7px 40px 7px 20px;
+    padding-right: 40px;
+    margin-right: 20px;
+    border-radius: 3px;
+    color: #172b4d;
+}
+
+.board-main-menu-navigation-item:hover {
+    background-color: rgba(9, 30, 66, .13);
+}
+
+.board-main-menu-navigation-btn {
+    display: flex;
+}
+
+.navigation-btn-description-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.board-main-menu-btn-name {
+    text-align: left;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.board-main-menu-navigation-btn-icon {
+    padding-right: 10px;
+}
+
+.board-main-menu-navigation-summary {
+    font-weight: 400;
+    color: #6b778c;
+    font-size: 14px;
+}
+
+.board-main-menu-open-section-activity-icon{
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+hr {
+    background-color: rgba(9, 30, 66, .13);
+    border: 0;
+    height: 1px;
+    padding: 0;
+    margin: 8px 10px;
+}

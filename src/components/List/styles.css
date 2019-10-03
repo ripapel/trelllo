@@ -1,0 +1,102 @@
+.list-wrapper {
+    display: inline-block;
+    width: 272px;
+    margin-left: 8px;
+    vertical-align: top;
+    position: relative;
+}
+
+.list-content {
+    background-color: rgb(235, 236, 240);
+    border-radius: 3px;
+    white-space: initial;
+}
+
+.list-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px;
+    padding-top: 5px;
+}
+
+.list-title {
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.open-list-menu-btn {
+    color: rgb(107, 119, 140);
+}
+
+
+.list-card {
+    color: rgb(25, 51, 69);
+    font-size: 14px;
+    box-shadow: rgb(179, 194, 204) 0px 1px 0px;
+    background: rgb(255, 255, 255);
+    padding: 8px 5px;
+    border-radius: 3px;
+    width: 246px;
+    margin: 0 auto 8px auto;
+    cursor: pointer !important;
+}
+
+.list-cards-container {
+    list-style-type: none;
+    padding: 0;
+}
+
+.new-list-composer-container {
+    padding: 7px 0;
+    padding-right: 10px;
+}
+
+.new-list-composer {
+    width: 100%;
+    border: 0;
+    padding: 6px 8px;
+    border-radius: 3px;
+    margin-bottom: 7px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    box-shadow: inset 0 0 0 2px #0079bf;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 400;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.card-composer {
+    padding-bottom: 10px;
+}
+
+#composer-textarea {
+    overflow: hidden;
+    overflow-wrap: break-word;
+    resize: none;
+    height: 54px;
+    border: 0px;
+    box-sizing: content-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: text !important;
+}
+
+#composer-textarea:focus {
+    outline: none;
+}
+
+.composer-textarea-container {
+    text-align: center;
+}
+
+.composer-controllers-container {
+    margin-left: 8px;
+}
+
+.discard-compose-icon {
+    color: #5e6c84;
+    font-size: 20px;
+    margin-left: 10px;
+}
